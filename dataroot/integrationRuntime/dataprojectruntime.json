@@ -1,0 +1,6 @@
+{
+	"name": "dataprojectruntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
