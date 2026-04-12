@@ -6,8 +6,8 @@
 		"type": "FileServer",
 		"typeProperties": {
 			"host": "C:\\Users\\ragav\\Downloads\\CRM+Sales+Opportunities",
-			"userId": "SATHISH C",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4N2MwMmQyMS0xZmQzLTQ0OWEtYWQxOC05NWJjY2Y2OWQ3NmYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userId": "ragav",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNDZjYmRjMS04YTI3LTQwODEtOTUyOC05OTM5YmZiMzk5Y2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "dataprojectruntime",
