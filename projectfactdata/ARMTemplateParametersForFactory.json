@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "projectfactdata"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"dataprojectlink_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://storeprojectdata.dfs.core.windows.net/"
+		},
+		"dataprojectlink_properties_typeProperties_host": {
+			"value": "C:\\Users\\ragav\\Downloads\\CRM+Sales+Opportunities"
+		},
+		"dataprojectlink_properties_typeProperties_userId": {
+			"value": "ragav"
+		}
+	}
+}
