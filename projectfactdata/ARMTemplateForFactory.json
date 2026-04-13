@@ -513,7 +513,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "sales_teams",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -540,7 +541,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "accounts",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -607,7 +609,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "data_dictionary",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -674,7 +677,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "products",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -761,7 +765,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "sales_pipeline",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -856,16 +861,6 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/dataprojectruntime')]",
-			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"type": "SelfHosted",
-				"typeProperties": {}
-			},
-			"dependsOn": []
-		},
-		{
 			"name": "[concat(parameters('factoryName'), '/timingtrig')]",
 			"type": "Microsoft.DataFactory/factories/triggers",
 			"apiVersion": "2018-06-01",
@@ -895,6 +890,16 @@
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/pipelines/pipeline1')]"
 			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/dataprojectruntime')]",
+			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "SelfHosted",
+				"typeProperties": {}
+			},
+			"dependsOn": []
 		}
 	]
 }

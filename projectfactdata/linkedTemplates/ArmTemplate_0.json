@@ -73,7 +73,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "sales_teams",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -100,7 +101,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "accounts",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -127,7 +129,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "data_dictionary",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -154,7 +157,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "products",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -181,7 +185,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "sink"
+						"folderPath": "sales_pipeline",
+						"fileSystem": "bronze"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
