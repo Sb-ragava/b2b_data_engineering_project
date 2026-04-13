@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "sink"
+				"folderPath": "accounts",
+				"fileSystem": "bronze"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
